@@ -1,0 +1,14 @@
+{
+    "profile": {
+        "rol": "Desarrollador de Software EN ESPAÑOL",
+        "description": "Esta es la descripcion que usaria en mi perfil pero esta proviene de un archivo.json EN ESPAÑOL"
+    },
+    "experience": {
+        "first-job-title": "Desarrollador Front End EN ESPAÑOL",
+        "first-job-dates": "desde el año ???? - hasta el año ???? EN ESPAÑOL",
+        "first-job-description": "Una descripcion de una experiencia laboral que aun no decido que poner EN ESPAÑOL",
+        "second-job-title": "Desarrollador Front End EN ESPAÑOL",
+        "second-job-dates": "desde el año ???? - hasta el año ???? EN ESPAÑOL",
+        "second-job-description": "Una descripcion de una experiencia laboral que aun no decido que poner EN ESPAÑOL"
+    }
+}
