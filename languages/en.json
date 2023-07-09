@@ -1,14 +1,21 @@
 {
     "profile": {
-        "rol": "Desarrollador de Software EN INGLES",
-        "description": "Esta es la descripcion que usaria en mi perfil pero esta proviene de un archivo.json EN INGLEES"
+        "rol": "Software Developer",
+        "description": "I'm Matías and to know my age is simple, just take the present year minus 2000.<br /> Im starting this site in 2023.<br/> I dream of contributing to society <b>quality of life</b> and I will achieve that when the time tells."
     },
     "experience": {
-        "first-job-title": "Desarrollador Front End EN INGLES TODO ESTOOOO",
-        "first-job-dates": "desde el año ???? - hasta el año ???? INGLEEEEES",
-        "first-job-description": "Una descripcion de una experiencia laboral que aun no decido que poner EN INGLEEEES",
-        "second-job-title": "Desarrollador Front End INGLEEES",
-        "second-job-dates": "desde el año ???? - hasta el año ???? INGLEEES",
-        "second-job-description": "Una descripcion de una experiencia laboral que aun no decido que poner INGLEEES"
+        "title": "Experiences",
+        "studies-title": "I studied Software Development",
+        "studies-dates": "2019 - 2023",
+        "studies-description": "I studied and acquire knowledge of both Back-end and Front-end at the IES (superior school institute) Manuel Belgrano."
+    },
+    "hobbie": {
+        "h1-title": "Driving",
+        "h1-text":"I enjoy driving and the benefits that come with it."
+    },
+    "project": {
+        "project1-title": "My briefcase",
+        "project1-p1": "This comes to be the first image of this site, a responsive page that make use of HTML and CSS for web design. And also JavaScript for functionality like changing the language making use of Json files.",
+        "project1-p2": "Down here are the links for the Github of this site, and also for the tutorial i followed to make it."
     }
 }

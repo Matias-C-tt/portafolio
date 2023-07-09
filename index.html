@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/icons/favicon.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="stylesheet" href="css/styles.css" />
   <title>Portafolio</title>
@@ -16,25 +17,23 @@
     <!--Toggle between Dark/Light mode div-->
     <div class="switches">
       <div id="toggle-theme" class="toggle-theme">
-        <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="Tema oscuro o claro" class="toggle-theme__icon">
         <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
       </div>
     </div>
     <!--Toggle-Language div-->
     <div id="flags" class="flags">
       <div class="flags__item" data-language="es">
-        <img src="assets/icons/es.svg" alt="" class="flags__img">
+        <img src="assets/icons/es.svg" alt="Bandera Español" class="flags__img">
       </div>
       <div class="flags__item" data-language="en">
-        <img src="assets/icons/gb.svg" alt="" class="flags__img">
+        <img src="assets/icons/gb.svg" alt="Bandera Inglés" class="flags__img">
       </div>
     </div>
     <!--Toggle-Colors div-->
     <div id="toggle-colors" class="colors">
-      <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
       <div data-color="hsl(150, 84%, 35%)" class="colors__item colors__item--green"></div>
       <div data-color="hsl(274, 84%, 56%)" class="colors__item colors__item--purple"></div>
-      <div data-color="hsl(40, 84%, 45%)" class="colors__item colors__item--orange"></div>
     </div>
 
   </header>
@@ -45,83 +44,46 @@
       <!--PROFILE CARD Article-->
       <article class="card card--profile">
         <div class="card__image-container">
-          <img src="assets/images/profile.jpg" alt="">
+          <img src="assets/images/profile.jpg" alt="Foto de perfil">
         </div>
         <div class="card__header">
-          <h2 class="card__title">Mi Nombre</h2>
-          <p class="card__subtitle" data-section="profile" data-value="rol">Developer</p>
+          <h2 class="card__title">Matías Cantarutti</h2>
+          <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador de Software</p>
         </div>
         <div class="card__body">
           <div class="card__link">
-            <i class="fas fa-envelope icon"></i>
-            <a href="mailto:@gmail.com">@gmail.com</a>
+            <i class="fab fa-whatsapp icon"></i>
+            <a href="tel:2616764077">+54 261-676-4077</a>
           </div>
           <div class="card__link">
-            <i class="fas fa-phone-alt icon"></i>
-            <a href="tel:12345678">+54-12345678</a>
+            <i class="fas fa-paper-plane icon"></i>
+            <a href="mailto:matiaszxxd@gmail.com">matiaszxxd@gmail.com</a>
           </div>
           <p class="card__text" data-section="profile" data-value="description">
-            Aqui pondre quien soy,
-            que experiencia tengo y demás. <br /> Cosa
-            de ser claro y por lo que veo tambien es
-            bueno hablar de mis objetivos
+            Soy Matías y saber mi edad es sencillo, solo hay que tomar el año actual y restarle 2000.<br />
+            Empiezo este sitio en el 2023.<br/>
+            Sueño en contribuir a la sociedad <b>calidad de vida</b> y eso lo conseguiré cuando el tiempo diga.
           </p>
+          <a href="https://drive.google.com/drive/folders/1gViTL0JMBd_v5PippX8XV4BpJK3NrBJa?usp=sharing" class="button button--primary" style="display:block;">CV</a>
         </div>
       </article>
       <!--Experiences article-->
       <article class="card card--experience">
-        <h2 class="card__title">Experiences</h2>
+        <h2 class="card__title" data-section="experience" data-value="title">Experiencias</h2>
         <!--Experience 1-->
         <div class="experience">
-          <img src="assets/images/logo.png" alt="logo" class="experience__image">
+          <a href="https://www.iesmb.edu.ar/bel/" class="experience__link">
+            <img src="assets/images/iesMBlogo.png" alt="Logo del instituto" class="experience__image">
+          </a>
           <div class="experience__info">
-            <p
-              class="experience__time"
-              data-section="experience"
-              data-value="first-job-dates"
-            >
-              Feb 2017 - Current
+            <p class="experience__time" data-section="experience" data-value="studies-dates">
+              2019 - 2023
             </p>
-            <h3
-              class="experience__job"
-              data-section="experience"
-              data-value="first-job-title"
-            >
-              Front End Developer
+            <h3 class="experience__job" data-section="experience" data-value="studies-title">
+              Estudié Desarrollo de Software
             </h3>
-            <p
-              class="experience__description"
-              data-section="experience"
-              data-value="first-job-description"
-            >
-              Este es un texto de relleno pero será una descripcion de lo que fue esta experiencia.
-            </p>
-          </div>
-        </div>
-        <!--Experience 2-->
-        <div class="experience">
-          <img src="assets/images/logo.png" alt="logo" class="experience__image">
-          <div class="experience__info">
-            <p
-              class="experience__time"
-              data-section="experience"
-              data-value="second-job-dates"
-            >
-              Feb 2017 - Current
-            </p>
-            <h3
-              class="experience__job"
-              data-section="experience"
-              data-value="second-job-title"
-            >
-              Front End Developer
-            </h3>
-            <p
-              class="experience__description"
-              data-section="experience"
-              data-value="second-job-description"
-            >
-              Este es un texto de relleno pero será una descripcion de lo que fue esta experiencia.
+            <p class="experience__description" data-section="experience" data-value="studies-description">
+              Estudié en el IES Manuel Belgrano y adquirí conocimientos tanto de Back-end como de Front-end.
             </p>
           </div>
         </div>
@@ -130,11 +92,11 @@
       <article class="card card--hobbies">
         <h2 class="card__title">Hobbies</h2>
         <div class="card__image-container">
-          <img src="assets/images/hobbie.jpg" alt="Man on a Bike">
+          <img src="assets/images/hobbie1.png" alt="Volante">
         </div>
-        <h3 class="hobbie__title">Biking</h3>
-        <p class="card__text">
-          Aquí pongo un texto de relleno ahora para planificar que voy a poner luego...
+        <h3 class="hobbie__title" data-section="hobbie" data-value="h1-title">Manejar</h3>
+        <p class="card__text" data-section="hobbie" data-value="h1-text">
+          Disfruto manejar y las utilidades que esto conlleva.
         </p>
       </article>
     </section>
@@ -204,7 +166,7 @@
       <!--Project article 1-->
       <article class="card card--project">
         <div class="card__image-container">
-          <img src="assets/images/project.jpg" alt="Landing page" class="card__image">
+          <img src="assets/images/portafolio.png" alt="Screenshot portafolio" class="card__image">
         </div>
         <div class="project">
           <div class="project__tags">
@@ -213,22 +175,19 @@
             <span class="project__tag">#JavaScript</span>
             <span class="project__tag">#Responsive</span>
           </div>
-          <h2 class="card__title">Landing Page</h2>
-          <p class="card__text">
-            Texto de relleno para el proyecto el cual podria explicar de que se trata
-            y demás, y blablabla blabla bla blabla bla blabla bla blabla bla blabla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
+          <h2 class="card__title" data-section="project" data-value="project1-title">Mi portafolio</h2>
+          <p class="card__text" data-section="project" data-value="project1-p1">
+            Esta viene siendo la primera imagen de este portafolio, es una página responsive que hace 
+            uso de HTML y CSS para diseño web. Y también hace uso de JavaScript para funcionalidades 
+            como cambio de idioma con archivos Json para conseguir los datos.
           </p>
-          <p class="card__text">
-            Texto de relleno para el proyecto el cual podria explicar de que se trata
-            y demás, y blablabla blabla bla blabla bla blabla bla blabla bla blabla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
+          <p class="card__text" data-section="project" data-value="project1-p2">
+            Abajo pueden ver disponibles los enlaces al portafolio y su código en github, además del 
+            tutorial que usé.
           </p>
           <div class="buttons">
-            <a href="#" class="button button--primary">Demo</a>
-            <a href="#" class="button button--ghost">Code</a>
+            <a href="https://github.com/Matias-C-tt/portafolio" class="button button--primary">Github</a>
+            <a href="https://youtu.be/7Rd84ExmHyg" class="button button--ghost">Tuto</a>
           </div>
         </div>
       </article>
@@ -239,23 +198,17 @@
         </div>
         <div class="project">
           <div class="project__tags">
-            <span class="project__tag">#HTML</span>
-            <span class="project__tag">#CSS</span>
-            <span class="project__tag">#JavaScript</span>
-            <span class="project__tag">#Responsive</span>
+            <span class="project__tag">#Re</span>
+            <span class="project__tag">lle</span>
+            <span class="project__tag">no</span>
+            <span class="project__tag">#</span>
           </div>
-          <h2 class="card__title">Landing Page</h2>
+          <h2 class="card__title">proyecto de relleno</h2>
           <p class="card__text">
-            Texto de relleno para el proyecto el cual podria explicar de que se trata
-            y demás, y blablabla blabla bla blabla bla blabla bla blabla bla blabla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
+            Texto de relleno para el proyecto 2
           </p>
           <p class="card__text">
-            Texto de relleno para el proyecto el cual podria explicar de que se trata
-            y demás, y blablabla blabla bla blabla bla blabla bla blabla bla blabla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
-            bla blabla bla blablabla blabla bla blablabla blabla bla blablabla blabla bla
+            Texto de relleno para el proyecto
           </p>
           <div class="buttons">
             <a href="#" class="button button--primary">Demo</a>
@@ -266,6 +219,11 @@
     </section>
 
   </main>
+  <footer class="footer">
+    <a href="https://github.com/Matias-C-tt" class="fab fa-github footer--link"> Matias-C-tt</a>
+    <a href="tel:2616764077" class="fab fa-whatsapp icon footer--link"> Whatsapp</a>
+    <a href="https://www.linkedin.com/in/matias-cantarutti-a986b6238/" class="fab fa-linkedin footer--link"> Linkedin</a>
+  </footer>
   <script src="js/scripts.js"></script>
 </body>
 

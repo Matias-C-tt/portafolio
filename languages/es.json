@@ -1,14 +1,21 @@
 {
     "profile": {
-        "rol": "Desarrollador de Software EN ESPAÑOL",
-        "description": "Esta es la descripcion que usaria en mi perfil pero esta proviene de un archivo.json EN ESPAÑOL"
+        "rol": "Desarrollador de Software",
+        "description": "Soy Matías y saber mi edad es sencillo, solo hay que tomar el año actual y restarle 2000.<br /> Empiezo este sitio en el 2023.<br/> Sueño en contribuir a la sociedad <b>calidad de vida</b> y eso lo conseguiré cuando el tiempo diga."
     },
     "experience": {
-        "first-job-title": "Desarrollador Front End EN ESPAÑOL",
-        "first-job-dates": "desde el año ???? - hasta el año ???? EN ESPAÑOL",
-        "first-job-description": "Una descripcion de una experiencia laboral que aun no decido que poner EN ESPAÑOL",
-        "second-job-title": "Desarrollador Front End EN ESPAÑOL",
-        "second-job-dates": "desde el año ???? - hasta el año ???? EN ESPAÑOL",
-        "second-job-description": "Una descripcion de una experiencia laboral que aun no decido que poner EN ESPAÑOL"
+        "title": "Experiencias",
+        "studies-title": "Estudié Desarrollo de Software",
+        "studies-dates": "2019 - 2023",
+        "studies-description": "Estudié en el IES Manuel Belgrano y adquirí conocimientos tanto de Back-end como de Front-end."
+    },
+    "hobbie": {
+        "h1-title": "Manejar",
+        "h1-text":"Disfruto manejar y las utilidades que esto conlleva."
+    },
+    "project": {
+        "project1-title": "Mi portafolio",
+        "project1-p1": "Esta viene siendo la primera imagen de este portafolio, es una página responsive que hace uso de HTML y CSS para diseño web. Y también hace uso de JavaScript para funcionalidades como cambio de idioma con archivos Json para conseguir los datos.",
+        "project1-p2": "Abajo pueden ver disponibles los enlaces al portafolio y su código en github, además del tutorial que usé."
     }
 }
